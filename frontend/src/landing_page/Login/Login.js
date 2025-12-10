@@ -55,6 +55,7 @@ function Login() {
                     onChange={(e)=> setPassword(e.target.value)}
                 />
                 <button type="submit">Log In</button>
+                <a href="/"  style={{textDecoration:"none"}}><i className="fa fa-long-arrow-left"></i>back</a>
             </form>
             { !userExistance && 
             <div className='popup'>
